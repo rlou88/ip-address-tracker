@@ -4,7 +4,7 @@ body {
   font-family: Rubik, serif;
 }
 
-h1 {
+.title {
   text-align: center;
   font-weight: 700;
   color: white;
@@ -52,4 +52,23 @@ input {
   top: 15%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.column {
+  /* justify-content: center; */
+  /* width: 25%; */
+  padding: 0 10px;
+}
+
+.banner-column {
+  width: 80%;
+  margin: 120px auto;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: white;
+  border-radius: 10px 10px 10px 10px;
 }
